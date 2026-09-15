@@ -28,6 +28,9 @@ jobs:
       - name: Build Web
         run: flutter build web --base-href "/estetica-selva-landing/" --release
 
+      - name: Fix SPA Routing (Copy index.html to 404.html)
+        run: cp ./build/web/index.html ./build/web/404.html
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
