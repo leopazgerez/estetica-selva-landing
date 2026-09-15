@@ -1,0 +1,35 @@
+{
+    "name": "Selva Estética",
+    "short_name": "Selva Estética",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F6F2EB",
+    "theme_color": "#274A37",
+    "description": "Selva Estética - Tu belleza, nuestra pasión. Plataforma integral para la gestión de centros estéticos, pacientes y turnos.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
