@@ -159,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         const SizedBox(height: 18),
         Text(
-          'Selva Estética es la plataforma inteligente creada para profesionales de la salud estética. Administrá pacientes, turnos, tratamientos y contactos con la máxima confidencialidad.',
+          'Estetica Selva es la plataforma inteligente creada para profesionales de la salud estética. El propósito de la aplicación es brindar una herramienta de gestión integral de pacientes, turnos y tratamientos. La integración con Google se utiliza para asegurar tu cuenta y sincronizar tus turnos con Google Calendar de forma privada.',
           textAlign: isMobile ? TextAlign.center : TextAlign.left,
           style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                 fontSize: isMobile ? 15 : 17,
@@ -568,7 +568,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 720),
                 child: const Text(
-                  'Este sitio web provee el portal oficial de Selva Estética para la verificación de aplicaciones de Google (OAuth & Google Play Console). Nuestras políticas de privacidad detallan expresamente qué datos se recopilan, cómo se protegen y el procedimiento directo para solicitar la eliminación de datos del usuario.',
+                  'Este sitio web provee el portal oficial de Estetica Selva para la verificación de aplicaciones de Google (OAuth & Google Play Console). Nuestras políticas de privacidad detallan expresamente qué datos se recopilan, cómo se protegen y el procedimiento directo para solicitar la eliminación de datos del usuario.',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 15,

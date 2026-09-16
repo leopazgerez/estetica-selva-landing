@@ -15,7 +15,7 @@ class SelvaEsteticaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Selva Estética - Tu belleza, nuestra pasión',
+      title: 'Estetica Selva - Tu belleza, nuestra pasión',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.theme,
       routerConfig: AppRouter.router,
