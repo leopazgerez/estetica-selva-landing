@@ -1,11 +1,11 @@
 {
-    "name": "Selva Estética",
-    "short_name": "Selva Estética",
+    "name": "Estetica Selva",
+    "short_name": "Estetica Selva",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F6F2EB",
     "theme_color": "#274A37",
-    "description": "Selva Estética - Tu belleza, nuestra pasión. Plataforma integral para la gestión de centros estéticos, pacientes y turnos.",
+    "description": "Estetica Selva - Tu belleza, nuestra pasión. Plataforma integral para la gestión de centros estéticos, pacientes y turnos.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

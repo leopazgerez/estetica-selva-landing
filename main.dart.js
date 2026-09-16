@@ -39459,7 +39459,7 @@ l=r.a8Y(A.arf().$3$color$fontSize$height(B.aF,16,1.6),A.arf().$3$color$fontSize$
 m=A.ahW(s,s,B.D,s,s,s,0,s,s,B.h,s,s,B.C0,s,new A.cH(A.bN(30),B.t),s,s,s,A.oE().$3$fontSize$fontWeight$letterSpacing(15,B.aJ,0.2),s)
 n=A.anG(s,s,s,s,s,s,s,s,s,B.D,s,s,B.BY,s,new A.cH(A.bN(30),B.t),B.yz,s,s,A.oE().$2$fontSize$fontWeight(15,B.aJ),s)
 l=A.a6T(s,new A.oZ(s,B.h,s,s,0,s,new A.cH(A.bN(20),B.kt)),B.A8,B.Bm,new A.pm(m),new A.q6(n),B.bi,l,!0)
-return new A.we($.arz(),"Selva Est\xe9tica - Tu belleza, nuestra pasi\xf3n",l,!1,s)}}
+return new A.we($.arz(),"Estetica Selva - Tu belleza, nuestra pasi\xf3n",l,!1,s)}}
 A.Rr.prototype={
 $2(a,b){var s=null
 return A.a3a(s,A.da(A.aI(s,A.bO(A.c([A.aI(s,B.Dw,B.k,s,s,B.yO,s,72,s,s,s,s,s,72),B.bo,B.RI,B.bc,B.RN,B.jK,A.mr(B.Dl,B.jS,new A.Rl(a),s)],t.p),B.u,B.cl,B.v),B.k,s,B.yM,s,s,s,s,s,B.C1,s,s,s),s,s))},
@@ -39499,7 +39499,7 @@ m=b?B.at:B.bd
 s=A.a4(a).ok.y
 if(s==null)s=q
 else s=s.a8L(b?15:17,1.6)
-m=A.b8("Selva Est\xe9tica es la plataforma inteligente creada para profesionales de la salud est\xe9tica. Administr\xe1 pacientes, turnos, tratamientos y contactos con la m\xe1xima confidencialidad.",q,q,s,m)
+m=A.b8("Estetica Selva es la plataforma inteligente creada para profesionales de la salud est\xe9tica. El prop\xf3sito de la aplicaci\xf3n es brindar una herramienta de gesti\xf3n integral de pacientes, turnos y tratamientos. La integraci\xf3n con Google se utiliza para asegurar tu cuenta y sincronizar tus turnos con Google Calendar de forma privada.",q,q,s,m)
 s=b?B.h8:B.bK
 r=t.p
 s=A.z0(s,A.c([A.mr(B.DF,B.RF,new A.aaU(this),q),A.G8(B.m9,B.xz,new A.aaV(a),q)],r),12,16)
@@ -39548,7 +39548,7 @@ X7(a,b){var s,r=null,q=b?48:72,p=A.kp(a),o=b?24:48,n=A.bN(28),m=A.eR(B.ap,1),l=A
 if(l==null)l=r
 else l=l.l7(B.az,b?22:28)
 s=t.p
-return A.aI(r,A.da(A.aI(r,A.bO(A.c([B.DA,B.aO,A.b8("Cumplimiento con las Normativas de Google",r,r,l,B.at),B.bc,new A.eU(B.yJ,B.Rp,r),B.jK,A.z0(B.h8,A.c([A.mr(B.m9,B.Rx,new A.aaS(a),r),A.G8(B.iI,B.S_,new A.aaT(a),r)],s),12,16)],s),B.u,B.r,B.v),B.k,r,new A.a9(0,p,0,1/0),new A.bj(B.cH,r,m,n,r,r,B.H),r,r,r,r,new A.af(o,o,o,o),r,r,r),r,r),B.k,B.h,r,r,r,r,r,r,new A.af(24,q,24,q),r,r,r)},
+return A.aI(r,A.da(A.aI(r,A.bO(A.c([B.DA,B.aO,A.b8("Cumplimiento con las Normativas de Google",r,r,l,B.at),B.bc,new A.eU(B.yJ,B.Rw,r),B.jK,A.z0(B.h8,A.c([A.mr(B.m9,B.Rx,new A.aaS(a),r),A.G8(B.iI,B.S_,new A.aaT(a),r)],s),12,16)],s),B.u,B.r,B.v),B.k,r,new A.a9(0,p,0,1/0),new A.bj(B.cH,r,m,n,r,r,B.H),r,r,r,r,new A.af(o,o,o,o),r,r,r),r,r),B.k,B.h,r,r,r,r,r,r,new A.af(24,q,24,q),r,r,r)},
 X4(a,b){var s,r,q,p=null,o=t.N,n=A.c([A.ac(["q","\xbfC\xf3mo garantiza Selva Est\xe9tica la privacidad de los pacientes?","a","Los datos de las fichas (nombres, tel\xe9fonos, tratamientos y antecedentes) son de uso exclusivo del profesional dentro de la aplicaci\xf3n. Selva Est\xe9tica no comercializa ni cede informaci\xf3n personal a redes de publicidad ni terceras partes."],o,o),A.ac(["q","\xbfC\xf3mo solicita un usuario la eliminaci\xf3n definitiva de su cuenta o datos?","a",'Cualquier usuario puede solicitar el borrado permanente de sus datos enviando un correo electr\xf3nico a soporte@esteticaselva.com con el asunto "Solicitud de Eliminaci\xf3n de Datos". La solicitud es procesada en un plazo m\xe1ximo de 72 horas h\xe1biles.'],o,o),A.ac(["q","\xbfPor qu\xe9 la app requiere acceso a cuentas de Google?","a","El inicio de sesi\xf3n mediante Google (Google Sign-In) y la sincronizaci\xf3n con Google Calendar permiten una autenticaci\xf3n segura y evitar duplicidad de turnos. El uso de datos se adhiere de forma estricta a la Pol\xedtica de Datos de Usuario de los Servicios de API de Google."],o,o),A.ac(["q","\xbfPuedo acceder a las pol\xedticas de privacidad directamente desde Google Console?","a","S\xed, la URL directa para la verificaci\xf3n de Google es /politicas-de-privacidad (o /privacy) y para los t\xe9rminos /condiciones-de-servicio (o /terms), ambas disponibles y activas en este dominio web."],o,o)],t.m0)
 o=b?48:80
 s=A.aI(p,B.RP,B.k,p,p,new A.bj(B.ap.c4(0.4),p,p,A.bN(20),p,p,B.H),p,p,p,p,B.hR,p,p,p)
@@ -39560,7 +39560,7 @@ q=t.XF
 q=A.V(new A.a1(n,new A.aaO(),q),q.h("am.E"))
 return A.aI(p,A.da(A.aI(p,A.bO(A.c([s,B.aO,r,B.xc,A.bO(q,B.u,B.r,B.v)],t.p),B.u,B.r,B.v),B.k,p,B.yH,p,p,p,p,p,p,p,p,p),p,p),B.k,B.bi,p,p,p,p,p,p,new A.af(24,o,24,o),p,p,p)},
 X1(a,b){var s=null,r=b?48:72,q=A.aI(s,A.ahp(A.EZ("assets/logo/logo_splash.png",new A.aaL(),B.eA)),B.k,s,s,B.kx,s,60,s,s,s,s,s,60),p=t.p
-return A.aI(s,A.da(A.aI(s,A.bO(A.c([q,B.bo,B.Rt,B.bc,A.b8("Optimiza tu centro de est\xe9tica hoy mismo",s,s,A.he(s,s,B.h,s,s,s,s,s,s,s,s,b?24:32,s,s,B.J,s,s,!0,s,s,s,s,s,s,s,s),B.at),B.aO,B.S1,B.em,A.z0(B.h8,A.c([A.mr(B.Dv,B.RY,new A.aaM(a),A.ahW(s,s,B.h,s,s,s,s,s,s,B.az,s,s,s,s,s,s,s,s,s,s)),A.G8(B.iI,B.xy,new A.aaN(a),A.anG(s,s,s,s,s,s,s,s,s,B.h,s,s,s,s,s,B.yx,s,s,s,s))],p),12,16)],p),B.u,B.r,B.v),B.k,s,B.ht,s,s,s,s,s,s,s,s,s),s,s),B.k,B.az,s,s,s,s,s,s,new A.af(24,r,24,r),s,s,s)}}
+return A.aI(s,A.da(A.aI(s,A.bO(A.c([q,B.bo,B.Rs,B.bc,A.b8("Optimiza tu centro de est\xe9tica hoy mismo",s,s,A.he(s,s,B.h,s,s,s,s,s,s,s,s,b?24:32,s,s,B.J,s,s,!0,s,s,s,s,s,s,s,s),B.at),B.aO,B.S1,B.em,A.z0(B.h8,A.c([A.mr(B.Dv,B.RY,new A.aaM(a),A.ahW(s,s,B.h,s,s,s,s,s,s,B.az,s,s,s,s,s,s,s,s,s,s)),A.G8(B.iI,B.xy,new A.aaN(a),A.anG(s,s,s,s,s,s,s,s,s,B.h,s,s,s,s,s,B.yx,s,s,s,s))],p),12,16)],p),B.u,B.r,B.v),B.k,s,B.ht,s,s,s,s,s,s,s,s,s),s,s),B.k,B.az,s,s,s,s,s,s,new A.af(24,r,24,r),s,s,s)}}
 A.aaZ.prototype={
 $0(){var s=$.a2.a9$.x.i(0,this.a.d)
 s.toString
@@ -39739,7 +39739,7 @@ n.push(A.cn(A.c([A.mu(A.b8("\xa9 "+A.anX(new A.ht(Date.now(),0,!1))+" Selva Est\
 return A.aI(r,A.da(A.aI(r,A.bO(n,B.u,B.r,B.v),B.k,r,new A.a9(0,p,0,1/0),r,r,r,r,r,r,r,r,r),r,r),B.k,r,r,B.yN,r,r,r,r,B.BZ,r,r,r)},
 Gu(a){var s=null,r=t.p
 return A.bO(A.c([A.cn(A.c([A.aI(s,A.ahp(A.EZ("assets/logo/logo_splash.png",new A.Vm(),B.eA)),B.k,s,s,B.kx,s,38,s,s,s,s,s,38),B.jJ,B.RE],r),B.u,B.r,B.v,0),B.aO,B.RU,B.aO,A.cn(A.c([B.Dn,B.c0,A.b8("soporte@esteticaselva.com",s,s,A.he(s,s,B.h.c4(0.9),s,s,s,s,s,s,s,s,14,s,s,B.K,s,s,!0,s,s,s,s,s,s,s,s),s)],r),B.u,B.r,B.v,0)],r),B.Y,B.r,B.v)},
-GD(a){return A.bO(A.c([B.Ru,B.aO,new A.ro("Pol\xedticas de Privacidad",B.iF,new A.Vn(a),null),B.bc,new A.ro("Condiciones de Servicio",B.m5,new A.Vo(a),null),B.bc,new A.ro("Eliminaci\xf3n de Datos",B.CO,new A.Vp(a),null)],t.p),B.Y,B.r,B.v)},
+GD(a){return A.bO(A.c([B.Rt,B.aO,new A.ro("Pol\xedticas de Privacidad",B.iF,new A.Vn(a),null),B.bc,new A.ro("Condiciones de Servicio",B.m5,new A.Vo(a),null),B.bc,new A.ro("Eliminaci\xf3n de Datos",B.CO,new A.Vp(a),null)],t.p),B.Y,B.r,B.v)},
 Gz(a){var s=null,r=A.bN(16),q=A.eR(B.Al,1)
 return A.aI(s,A.bO(A.c([A.cn(B.Fk,B.u,B.r,B.v,0),B.el,B.RC],t.p),B.Y,B.r,B.v),B.k,s,s,new A.bj(B.Aw,s,q,r,s,s,B.H),s,s,s,s,B.BU,s,s,s)}}
 A.Vm.prototype={
@@ -39820,7 +39820,7 @@ $0(){return this.a.a52(this.b)},
 $S:0}
 A.a00.prototype={
 $1(a){var s=null,r=A.a4(a).ok.r,q=t.p,p=this.a,o=this.b
-return A.aiT(!0,new A.ct(B.lz,A.bO(A.c([A.cn(A.c([A.b8("Men\xfa Selva Est\xe9tica",s,s,r==null?s:r.a8H(B.D,B.J),s),A.amL(s,B.Dq,s,s,new A.a_U(a),s,s,s)],q),B.u,B.cP,B.v,0),B.Bo,A.w6(s,s,s,!0,!0,B.Do,s,new A.a_V(p,a,o),s,s,s,B.RX,s,s),A.w6(s,s,s,!0,!0,B.Dt,s,new A.a_W(p,a,o),s,s,s,B.RR,s,s),A.w6(s,s,s,!0,!0,B.Dg,s,new A.a_X(p,a,o),s,s,s,B.Rr,s,s),A.w6(s,s,s,!0,!0,B.Dr,s,new A.a_Y(p,a,o),s,s,B.RA,B.xz,s,s),A.w6(s,s,s,!0,!0,B.Dh,s,new A.a_Z(p,a,o),s,s,s,B.xy,s,s),B.bc,A.mr(B.DI,B.RW,new A.a0_(p,a,o),s)],q),B.dy,B.r,B.as),s),B.b2,!0)},
+return A.aiT(!0,new A.ct(B.lz,A.bO(A.c([A.cn(A.c([A.b8("Men\xfa Selva Est\xe9tica",s,s,r==null?s:r.a8H(B.D,B.J),s),A.amL(s,B.Dq,s,s,new A.a_U(a),s,s,s)],q),B.u,B.cP,B.v,0),B.Bo,A.w6(s,s,s,!0,!0,B.Do,s,new A.a_V(p,a,o),s,s,s,B.RX,s,s),A.w6(s,s,s,!0,!0,B.Dt,s,new A.a_W(p,a,o),s,s,s,B.RR,s,s),A.w6(s,s,s,!0,!0,B.Dg,s,new A.a_X(p,a,o),s,s,s,B.Rq,s,s),A.w6(s,s,s,!0,!0,B.Dr,s,new A.a_Y(p,a,o),s,s,B.RA,B.xz,s,s),A.w6(s,s,s,!0,!0,B.Dh,s,new A.a_Z(p,a,o),s,s,s,B.xy,s,s),B.bc,A.mr(B.DI,B.RW,new A.a0_(p,a,o),s)],q),B.dy,B.r,B.as),s),B.b2,!0)},
 $S:334}
 A.a_U.prototype={
 $0(){A.hH(this.a,!1).ji(null)
@@ -75486,11 +75486,11 @@ B.r=new A.kW(0,"start")
 B.v=new A.FA(1,"max")
 B.c2=new A.a7s(1,"down")
 B.Op=new A.i(!0,B.az,null,null,null,null,15,B.J,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Rq=new A.bf("Compromiso de Privacidad y Verificaci\xf3n de Google",null,B.Op,null,null,null,null)
+B.Rp=new A.bf("Compromiso de Privacidad y Verificaci\xf3n de Google",null,B.Op,null,null,null,null)
 B.M5=new A.c9(null,6,null,null)
 B.Pt=new A.i(!0,B.ay,null,null,null,null,13,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.RM=new A.bf("Selva Est\xe9tica respeta plenamente su privacidad y garantiza que la recopilaci\xf3n de datos se limita estrictamente a la prestaci\xf3n de servicios de gesti\xf3n de turnos y pacientes dentro del centro est\xe9tico.",null,B.Pt,null,null,null,null)
-B.Gx=s([B.Rq,B.M5,B.RM],t.p)
+B.Gx=s([B.Rp,B.M5,B.RM],t.p)
 B.B_=new A.un(B.aY,B.r,B.v,B.Y,null,B.c2,null,0,B.Gx,null)
 B.Cd=new A.pu(1,B.f5,B.B_,null)
 B.F9=s([B.DB,B.x8,B.Cd],t.p)
@@ -75525,15 +75525,15 @@ B.Ff=s(["-apple-system","BlinkMacSystemFont"],t.s)
 B.mq=s(["BlinkMacSystemFont"],t.s)
 B.Fh=s([18,15,10,12,15,18,15,12,12],t.n)
 B.xs=new A.i(!0,B.az,null,null,null,null,16,B.J,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Rw=new A.bf("\xbfC\xf3mo solicitar el borrado de sus datos?",null,B.xs,null,null,null,null)
+B.Rv=new A.bf("\xbfC\xf3mo solicitar el borrado de sus datos?",null,B.xs,null,null,null,null)
 B.xd=new A.c9(null,8,null,null)
 B.Ox=new A.i(!0,B.ay,null,null,null,null,14,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Rv=new A.bf('1. Env\xede un correo electr\xf3nico a: soporte@esteticaselva.com con el asunto "Solicitud de Eliminaci\xf3n de Datos - Selva Est\xe9tica".\n2. Indique el correo electr\xf3nico con el que est\xe1 registrado en la aplicaci\xf3n.\n3. Nuestro equipo confirmar\xe1 la recepci\xf3n y ejecutar\xe1 la eliminaci\xf3n permanente e irreversible de sus registros y pacientes asociados en un plazo m\xe1ximo de 72 horas h\xe1biles.',null,B.Ox,null,null,null,null)
-B.Fj=s([B.Rw,B.xd,B.Rv],t.p)
+B.Ru=new A.bf('1. Env\xede un correo electr\xf3nico a: soporte@esteticaselva.com con el asunto "Solicitud de Eliminaci\xf3n de Datos - Selva Est\xe9tica".\n2. Indique el correo electr\xf3nico con el que est\xe1 registrado en la aplicaci\xf3n.\n3. Nuestro equipo confirmar\xe1 la recepci\xf3n y ejecutar\xe1 la eliminaci\xf3n permanente e irreversible de sus registros y pacientes asociados en un plazo m\xe1ximo de 72 horas h\xe1biles.',null,B.Ox,null,null,null,null)
+B.Fj=s([B.Rv,B.xd,B.Ru],t.p)
 B.Dm=new A.by(B.iE,20,B.ap,null,null)
 B.Qb=new A.i(!0,B.h,null,null,null,null,14,B.J,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Rs=new A.bf("Verificaci\xf3n de Google App",null,B.Qb,null,null,null,null)
-B.Cc=new A.pu(1,B.f5,B.Rs,null)
+B.Rr=new A.bf("Verificaci\xf3n de Google App",null,B.Qb,null,null,null,null)
+B.Cc=new A.pu(1,B.f5,B.Rr,null)
 B.Fk=s([B.Dm,B.c0,B.Cc],t.p)
 B.Fl=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
 B.Fm=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
@@ -77232,12 +77232,12 @@ B.PS=new A.i(!0,B.O,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.Qd=new A.i(!0,B.n,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.N8=new A.i(!0,B.n,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.Rn=new A.cI(B.P0,B.NS,B.P1,B.Pv,B.Nw,B.NF,B.Oc,B.Pp,B.Oo,B.PV,B.N_,B.Nj,B.PS,B.Qd,B.N8)
-B.Rp=new A.bf("Este sitio web provee el portal oficial de Selva Est\xe9tica para la verificaci\xf3n de aplicaciones de Google (OAuth & Google Play Console). Nuestras pol\xedticas de privacidad detallan expresamente qu\xe9 datos se recopilan, c\xf3mo se protegen y el procedimiento directo para solicitar la eliminaci\xf3n de datos del usuario.",null,B.xx,B.at,null,null,null)
-B.Rr=new A.bf("Capturas de la App",null,null,null,null,null,null)
+B.Rq=new A.bf("Capturas de la App",null,null,null,null,null,null)
 B.QN=new A.i(!0,B.h,null,null,null,null,14,B.J,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Rt=new A.bf("SELVA EST\xc9TICA",null,B.QN,null,null,null,null)
+B.Rs=new A.bf("SELVA EST\xc9TICA",null,B.QN,null,null,null,null)
 B.QE=new A.i(!0,B.h,null,null,null,null,13,B.J,null,1.2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Ru=new A.bf("DOCUMENTOS LEGALES",null,B.QE,null,null,null,null)
+B.Rt=new A.bf("DOCUMENTOS LEGALES",null,B.QE,null,null,null,null)
+B.Rw=new A.bf("Este sitio web provee el portal oficial de Estetica Selva para la verificaci\xf3n de aplicaciones de Google (OAuth & Google Play Console). Nuestras pol\xedticas de privacidad detallan expresamente qu\xe9 datos se recopilan, c\xf3mo se protegen y el procedimiento directo para solicitar la eliminaci\xf3n de datos del usuario.",null,B.xx,B.at,null,null,null)
 B.Rx=new A.bf("Leer Pol\xedticas de Privacidad",null,null,null,null,null,null)
 B.Rz=new A.bf("CARACTER\xcdSTICAS PRINCIPALES",null,B.jR,null,null,null,null)
 B.RA=new A.bf("Ruta requerida por Google",null,null,null,null,null,null)
