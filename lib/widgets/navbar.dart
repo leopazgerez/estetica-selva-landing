@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+
 import '../theme/app_theme.dart';
 
 class Navbar extends StatelessWidget implements PreferredSizeWidget {
@@ -38,7 +39,9 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
       ),
       child: Center(
         child: Container(
-          constraints: BoxConstraints(maxWidth: AppTheme.contentMaxWidth(context)),
+          constraints: BoxConstraints(
+            maxWidth: AppTheme.contentMaxWidth(context),
+          ),
           padding: const EdgeInsets.symmetric(horizontal: 24),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -48,7 +51,10 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                 onTap: () => _navigateTo(context, '/'),
                 borderRadius: BorderRadius.circular(12),
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
+                  padding: const EdgeInsets.symmetric(
+                    vertical: 8,
+                    horizontal: 4,
+                  ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
@@ -72,7 +78,10 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                             'assets/logo/logo_splash.png',
                             fit: BoxFit.contain,
                             errorBuilder: (context, error, stackTrace) =>
-                                const Icon(Icons.spa, color: AppTheme.primaryGreen),
+                                const Icon(
+                                  Icons.spa,
+                                  color: AppTheme.primaryGreen,
+                                ),
                           ),
                         ),
                       ),
@@ -82,23 +91,24 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'SELVA',
-                            style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                            'SELVA ESTETICA',
+                            style: Theme.of(context).textTheme.titleLarge
+                                ?.copyWith(
                                   fontWeight: FontWeight.w800,
                                   letterSpacing: 2.0,
                                   color: AppTheme.primaryGreen,
                                   fontSize: 18,
                                 ),
                           ),
-                          Text(
-                            'ESTÉTICA & BIENESTAR',
-                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                  letterSpacing: 1.2,
-                                  fontSize: 9,
-                                  fontWeight: FontWeight.w600,
-                                  color: AppTheme.textSecondary,
-                                ),
-                          ),
+                          // Text(
+                          //   'ESTÉTICA & BIENESTAR',
+                          //   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          //         letterSpacing: 1.2,
+                          //         fontSize: 9,
+                          //         fontWeight: FontWeight.w600,
+                          //         color: AppTheme.textSecondary,
+                          //       ),
+                          // ),
                         ],
                       ),
                     ],
@@ -135,24 +145,31 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                     ),
                     _NavLink(
                       label: 'Privacidad',
-                      isActive: currentPath == '/politicas-de-privacidad' ||
+                      isActive:
+                          currentPath == '/politicas-de-privacidad' ||
                           currentPath == '/privacy',
-                      onTap: () => _navigateTo(context, '/politicas-de-privacidad'),
+                      onTap: () =>
+                          _navigateTo(context, '/politicas-de-privacidad'),
                     ),
                     _NavLink(
                       label: 'Términos',
-                      isActive: currentPath == '/condiciones-de-servicio' ||
+                      isActive:
+                          currentPath == '/condiciones-de-servicio' ||
                           currentPath == '/terms',
-                      onTap: () => _navigateTo(context, '/condiciones-de-servicio'),
+                      onTap: () =>
+                          _navigateTo(context, '/condiciones-de-servicio'),
                     ),
                     const SizedBox(width: 16),
                     ElevatedButton.icon(
-                      onPressed: () => _navigateTo(context, '/politicas-de-privacidad'),
+                      onPressed: () =>
+                          _navigateTo(context, '/politicas-de-privacidad'),
                       icon: const Icon(Icons.verified_user_outlined, size: 18),
                       label: const Text('Verificación Google'),
                       style: ElevatedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 20, vertical: 12),
+                          horizontal: 20,
+                          vertical: 12,
+                        ),
                         textStyle: const TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.w600,
@@ -164,7 +181,11 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
               else
                 // Mobile Menu Button
                 IconButton(
-                  icon: const Icon(Icons.menu, color: AppTheme.primaryGreen, size: 28),
+                  icon: const Icon(
+                    Icons.menu,
+                    color: AppTheme.primaryGreen,
+                    size: 28,
+                  ),
                   onPressed: () => _showMobileMenu(context),
                   tooltip: 'Abrir menú',
                 ),
@@ -195,7 +216,8 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                   children: [
                     Text(
                       'Menú Selva Estética',
-                      style: Theme.of(bottomSheetContext).textTheme.titleLarge?.copyWith(
+                      style: Theme.of(bottomSheetContext).textTheme.titleLarge
+                          ?.copyWith(
                             color: AppTheme.primaryGreen,
                             fontWeight: FontWeight.bold,
                           ),
@@ -208,7 +230,10 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                 ),
                 const Divider(height: 24),
                 ListTile(
-                  leading: const Icon(Icons.home_outlined, color: AppTheme.primaryGreen),
+                  leading: const Icon(
+                    Icons.home_outlined,
+                    color: AppTheme.primaryGreen,
+                  ),
                   title: const Text('Inicio'),
                   onTap: () {
                     Navigator.pop(bottomSheetContext);
@@ -216,7 +241,10 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                   },
                 ),
                 ListTile(
-                  leading: const Icon(Icons.featured_play_list_outlined, color: AppTheme.primaryGreen),
+                  leading: const Icon(
+                    Icons.featured_play_list_outlined,
+                    color: AppTheme.primaryGreen,
+                  ),
                   title: const Text('Funcionalidades'),
                   onTap: () {
                     Navigator.pop(bottomSheetContext);
@@ -227,7 +255,10 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                   },
                 ),
                 ListTile(
-                  leading: const Icon(Icons.phone_iphone_outlined, color: AppTheme.primaryGreen),
+                  leading: const Icon(
+                    Icons.phone_iphone_outlined,
+                    color: AppTheme.primaryGreen,
+                  ),
                   title: const Text('Capturas de la App'),
                   onTap: () {
                     Navigator.pop(bottomSheetContext);
@@ -238,7 +269,10 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                   },
                 ),
                 ListTile(
-                  leading: const Icon(Icons.privacy_tip_outlined, color: AppTheme.primaryGreen),
+                  leading: const Icon(
+                    Icons.privacy_tip_outlined,
+                    color: AppTheme.primaryGreen,
+                  ),
                   title: const Text('Políticas de Privacidad'),
                   subtitle: const Text('Ruta requerida por Google'),
                   onTap: () {
@@ -247,7 +281,10 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
                   },
                 ),
                 ListTile(
-                  leading: const Icon(Icons.gavel_outlined, color: AppTheme.primaryGreen),
+                  leading: const Icon(
+                    Icons.gavel_outlined,
+                    color: AppTheme.primaryGreen,
+                  ),
                   title: const Text('Condiciones de Servicio'),
                   onTap: () {
                     Navigator.pop(bottomSheetContext);
@@ -290,13 +327,16 @@ class _NavLink extends StatelessWidget {
       child: TextButton(
         onPressed: onTap,
         style: TextButton.styleFrom(
-          foregroundColor: isActive ? AppTheme.primaryGreen : AppTheme.textPrimary,
+          foregroundColor: isActive
+              ? AppTheme.primaryGreen
+              : AppTheme.textPrimary,
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
           ),
-          backgroundColor:
-              isActive ? AppTheme.accentMint.withValues(alpha: 0.35) : Colors.transparent,
+          backgroundColor: isActive
+              ? AppTheme.accentMint.withValues(alpha: 0.35)
+              : Colors.transparent,
         ),
         child: Text(
           label,
